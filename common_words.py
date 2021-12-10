@@ -6,8 +6,7 @@ import argparse
 
 def bmi():
     url = input("Ingrese la URL：", type=TEXT)
-    #weight = input("Ingrese la URL：")
-    
+        
     import requests
     from bs4 import BeautifulSoup
     from collections import Counter
@@ -29,8 +28,6 @@ def bmi():
         put_text('Prueba solicitada por Woobsing')
         #put_html('<br><br>')
         
-        
-        #put_markdown('Your BMI: `%.1f`. Category: `%s`' % (BMI, status))
         put_html('<hr>')
         put_table([
         ['Palabras'],
