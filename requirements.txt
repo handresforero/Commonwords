@@ -2,7 +2,7 @@ opencv-python-headless==4.4.0.40
 h5py
 pipwin
 record
-scipy=0.18.0
+scipy
 absl-py==0.9.0
 astunparse==1.6.3
 cachetools==4.1.1
