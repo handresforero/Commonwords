@@ -55,8 +55,8 @@ def bmi():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("p", "--port", type=int, default=8080)
-    args = parser.parse-args()
+    parser.add_argument("-p", "--port", type=int, default=8080)
+    args = parser.parse_args()
     
     start_server(bmi, port=args.port)
     #pywebio.start_server(bmi, port=80)
