@@ -40,14 +40,14 @@ def bmi():
     for common in common:
         
         put_markdown('# **Resultados**')
-        #put_text('Your BMI: %.1f. Category: %s' % (BMI, status))
+        put_text('Prueba solicitada por Woobsing')
         #put_html('<br><br>')
         
         
         #put_markdown('Your BMI: `%.1f`. Category: `%s`' % (BMI, status))
         put_html('<hr>')
         put_table([
-        ['Letra', 'Promedio'],
+        ['Palabras'],
         [c.most_common()],
         ])
 
